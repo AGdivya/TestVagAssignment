@@ -5,7 +5,7 @@ Pre-requisites - Java & Eclipse - https://www.youtube.com/playlist?list=PLBBog2r
 
 
 Step 1 : Creating and importing a Maven Project
-Import this project in Eclipse.
+:- Import this project in Eclipse.
 
 Step 2 : Understanding Project Object Model -
 Pom.xml - It has all dependecies required in project
