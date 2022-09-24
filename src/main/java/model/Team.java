@@ -4,9 +4,14 @@ import java.util.List;
 
 public class Team {
 	
-	String name;
+	private String name;
 	String location;
 	List<Player> player;
+	@Override
+	public String toString() {
+		return "Team [name=" + name + ", location=" + location + ", player=" + player + "]";
+	}
+	
 	
 	public String getName() {
 		return name;

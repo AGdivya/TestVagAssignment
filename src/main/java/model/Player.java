@@ -33,6 +33,12 @@ public class Player {
 	public void setPriceincrores(String priceincrores) {
 		this.priceincrores = priceincrores;
 	}
+	@Override
+	public String toString() {
+		return "Player [name=" + name + ", country=" + country + ", role=" + role + ", priceincrores=" + priceincrores
+				+ "]";
+	}
+	
 	
 	
 
